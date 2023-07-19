@@ -1,36 +1,46 @@
-
-.inline-block{ 
+header{
+    background-color: #373738;
+    padding: 15px;
+}
+header ul{
+    float: right;
+    color: black;
+}
+header li{
     display: inline-block;
-    vertical-align: top;
+    padding: 0px 5px;
 }
-.logo{
-    width: 23%;
-    padding: 1%;
-    text-align: center;
-}
-p.nav{
-   width: 73%;
-   padding: 1%; 
-}
-ul{
-    width: 50%;
-    margin-left: auto;   
+header p {
+    display: inline-block;
 }
 .heroimg{
-    height: 600px;
-    padding: 25px;
+    background-color: #EBEBEB;
+    padding: 100px 15px;
 }
 .content{
-    width: 500px;
+    max-width: 300px;
     margin: 0 auto;
+    padding: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
 }
-
-.footer{
+button {
+    padding: 15px;
     background-color: #373738;
-    padding: 25%;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
 }
-ul{
+footer{
+    background-color: #373738;
+    padding: 5%;
+    color: white;
+}
+footer ul{
+    list-style: none;
+    padding-left: 5px;
+}
+footer li{
     display: inline-block;
-    vertical-align: top;
-    padding: center;
+    padding: 0px 7px;
 }
